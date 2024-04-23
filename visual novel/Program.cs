@@ -16,7 +16,7 @@ namespace visual_novel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Scene1());
+            Application.Run(new MainMenu());
         }
     }
 }

@@ -16,5 +16,12 @@ namespace visual_novel
         {
             InitializeComponent();
         }
+
+        private void NewGameButton_Click(object sender, EventArgs e)
+        {
+            Scene1 scene1 = new Scene1();
+            scene1.Show();
+            this.Hide();
+        }
     }
 }
